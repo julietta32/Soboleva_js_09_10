@@ -1,0 +1,60 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 15x;
+}
+a:hover{
+	color: dimgray;
+}
+
+.submenu li, .submenu2 li, .submenu3 li{
+	margin: 10px;
+	padding-top: 5px;
+}
+
+
+.nav1, .nav2, .nav4, .nav5, .menu{
+	float: left;
+	background-color:crimson;
+	padding: 35px;
+}
+
+.submenu li, .submenu2 li, .submenu3 li{
+	border-bottom: 1px solid darkred;
+}
+div.sub, div.sub2, div.sub3{
+	float: left;
+	background-color: crimson;
+	display: none;
+}
+div.sub{
+	background-color:firebrick;
+	margin-top:70px;
+	margin-left: -310px;
+	width: 190px;
+	height: 200px;
+	padding-top:10px;
+}
+div.sub2{
+	background-color:firebrick;
+	margin-top:180px;
+	margin-left: -120px;
+	width: 190px;
+	height: 200px;
+}
+
+div.sub3{
+	background-color: firebrick;
+	margin-top:210px;
+	width: 190px;
+	height: 210px;
+}

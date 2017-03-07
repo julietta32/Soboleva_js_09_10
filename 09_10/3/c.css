@@ -1,0 +1,21 @@
+.decor_checkbox span input[type="checkbox"]{
+            display: none;
+        }
+ div.decor_checkbox{
+            clear: both;
+            height: 42px;
+            margin-bottom: 5px;
+        }
+ div.decor_checkbox span {
+            display: block;
+            float:left;
+            cursor: pointer;
+            width: 22px;
+            height: 20px;
+            background: url("http://icon-icons.com/icons2/624/PNG/512/Checked_Checkbox-80_icon-icons.com_57358.png") no-repeat;
+			background-size: contain;
+            margin-right:10px;
+        }
+  div.check_active span{
+            background-position: 0 -40px;
+        }
